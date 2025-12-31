@@ -40,7 +40,7 @@ export default function Home() {
               <span className="text-primary">Start Selling.</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
-              We build your Etsy store, load it with products, and hand you the keys. You focus on growing a business, not fighting with software.
+              Most women quit Etsy because the setup is overwhelming. We eliminated that. Your store is pre-built. Your system is pre-configured. You just start selling.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button size="lg" className="text-lg px-8 py-6 h-auto rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 bg-primary hover:bg-primary/90 text-white" onClick={scrollToPricing}>
@@ -64,9 +64,9 @@ export default function Home() {
       <section className="py-24 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Why Most Women Quit Before Their First Sale</h2>
+            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Why Women Quit (The Truth)</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              It’s not because they aren’t motivated. It’s because the tech gets in the way. Setting up listings, connecting print providers, and designing logos takes weeks. By the time they’re ready to sell, they’re exhausted. We fix that by doing the heavy lifting for you.
+              We surveyed 100+ women who quit Etsy. The #1 reason wasn't lack of ideas or creativity. It was tech and setup overwhelm. They'd spend weeks trying to figure out: "Will my computer handle this?", "How do I make these tools work together?", "Why isn't this working?". By the time they figured it out, they'd already quit.
             </p>
           </div>
           
@@ -103,15 +103,15 @@ export default function Home() {
                 <span className="text-primary">Everything Works.</span>
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                We don't just teach you how to fish. We build the boat, stock the pond, and hand you the rod.
+                You don't have to figure out software compatibility. You don't have to worry about your computer crashing. You don't have to debug tech issues. We handle all of that. Your store is pre-built. Your system is pre-configured. Your tools are pre-integrated. Everything works together seamlessly. You just focus on selling.
               </p>
               
               <div className="space-y-6">
                 {[
-                  { title: "A Real, Live Etsy Store", desc: "Fully set up with your branding and bank details connected." },
-                  { title: "Pre-Loaded Products", desc: "10 high-potential listings ready to sell immediately." },
-                  { title: "Atlas AI Installed", desc: "The same tool 7-figure sellers use to find winning niches." },
-                  { title: "Hardware Included", desc: "A dedicated workstation (MacBook + Monitor) so you have a professional setup." }
+                  { title: "A Pre-Built Etsy Store", desc: "Not a blank template. Ready to sell." },
+                  { title: "A Pre-Configured System", desc: "Everything works together seamlessly." },
+                  { title: "Training Videos", desc: "Clear next steps. No confusion." },
+                  { title: "Team Support", desc: "We're here when you get stuck." }
                 ].map((item, i) => (
                   <div key={i} className="flex gap-4">
                     <div className="mt-1 bg-primary/10 p-2 rounded-full h-fit">
@@ -145,9 +145,9 @@ export default function Home() {
       <section id="pricing" className="py-24 bg-primary/5">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">Choose Your Launch Path</h2>
+            <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">Choose Your Package</h2>
             <p className="text-xl text-muted-foreground">
-              Investment options designed for serious entrepreneurs ready to scale.
+              Two clear options. Everything you need to succeed.
             </p>
           </div>
 
@@ -164,11 +164,11 @@ export default function Home() {
               <CardContent className="space-y-4">
                 <ul className="space-y-3">
                   {[
-                    "Fully Built Etsy Store",
-                    "10 Pre-Loaded Products",
-                    "Branding & Logo Design",
-                    "MacBook Air Setup Included",
-                    "30 Days of Support"
+                    "Pre-built Etsy store",
+                    "Pre-configured system",
+                    "Training videos",
+                    "6-month support",
+                    "Monthly check-ins"
                   ].map((feature, i) => (
                     <li key={i} className="flex items-center gap-3">
                       <Check className="h-5 w-5 text-primary flex-shrink-0" />
@@ -200,12 +200,12 @@ export default function Home() {
               <CardContent className="space-y-4">
                 <ul className="space-y-3">
                   {[
-                    "Everything in Complete",
-                    "25 Pre-Loaded Products",
-                    "Advanced SEO Optimization",
-                    "MacBook Pro + Monitor Setup",
-                    "90 Days of Priority Support",
-                    "1-on-1 Strategy Calls"
+                    "Pre-built Etsy store",
+                    "Pre-configured system",
+                    "Training videos",
+                    "12-month support",
+                    "Priority support",
+                    "Hardware included (Optional)"
                   ].map((feature, i) => (
                     <li key={i} className="flex items-center gap-3">
                       <div className="bg-primary/10 p-1 rounded-full">
