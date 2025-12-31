@@ -35,7 +35,7 @@ export default function Home() {
               <span className="flex h-2 w-2 rounded-full bg-primary mr-2"></span>
               Now Accepting Applications for January 2025
             </div>
-            <h1 className="text-5xl md:text-7xl font-serif font-bold tracking-tight mb-8 leading-tight text-primary-foreground">
+            <h1 className="text-5xl md:text-7xl font-serif font-bold tracking-tight mb-8 leading-tight text-foreground">
               Stop Worrying About Tech. <br />
               <span className="text-primary">Start Selling.</span>
             </h1>
